@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ReFlow PCB with ATtiny85-20S_50 x 70")
-		(date "2026-02-17")
-		(rev "V2.0")
+		(date "2026-03-12")
+		(rev "V2.1")
 		(company "Z32IT")
 	)
 	(lib_symbols
@@ -3114,6 +3114,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "1=+5Vcc_pin8, 2=PB1_pin6, 3=PB0_pin5, 4=PB2_pin7, 5=GND_pin4, 6=PB5_pin1\n/MOSI-MISO-CLK-RST"
+		(exclude_from_sim no)
+		(at 203.2 88.9 0)
+		(size 25.4 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "ebc2fa37-a548-402d-942c-7f0d7c794b9a")
+	)
 	(junction
 		(at 153.67 125.73)
 		(diameter 0)
@@ -5767,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_M"
+		(property "Value" "Prog.interface"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -6934,10 +6954,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4eab4cc-19dc-499c-ac8b-0e005ff66c2f")
 		(property "Reference" "Q1"
-			(at 168.91 78.7399 0)
+			(at 168.148 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,8 +6964,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF3205N"
-			(at 168.91 81.2799 0)
+		(property "Value" "IRLZ44N"
+			(at 156.464 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3950"
 			(at 134.62 104.14 0)
 			(effects
 				(font
