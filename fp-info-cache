@@ -1,4 +1,11 @@
-26419048148025469
+26426136825805888
+74LVC1G74DP_125
+SOP65P400X110-8N
+<b>SOT505-2</b><br>
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93429,6 +93436,13 @@ RCJ-2121
 6
 6
 RF
+FIL_TA1761A
+
+
+0
+8
+8
+RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
 Skyworks
@@ -99252,6 +99266,13 @@ Logo WEEE
 0
 0
 0
+TA2241A
+FIL_TA2241A
+
+
+0
+8
+8
 TQP3M9036
 SON50P200X200X95-9N
 
@@ -99259,6 +99280,13 @@ SON50P200X200X95-9N
 0
 12
 12
+TQP7M9106
+QFN50P400X400X90-25N
+
+
+0
+42
+42
 TY-145P
 XFMR_TY-145P
 
