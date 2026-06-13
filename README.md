@@ -1,6 +1,6 @@
 # REFLOW-PCB
 ReFlow PCB with ATtyny85
-Modification from " https://github.com/rallekralle11/Tinyreflow "
+- Modification from " https://github.com/rallekralle11/Tinyreflow "
 # J3 programming interface
 - 1= +5Vcc
 - 2= PB1_MISO
